@@ -11,5 +11,5 @@
     <string name="reset_success_count">Reset Success Count</string>
     <string name="reset_data">Reset Data</string>
     <string name="about">About</string>
-    <string name="correct_value">Correct Value</string>
+    <string name="correct_value">Enter Correct Value</string>
 </resources>
