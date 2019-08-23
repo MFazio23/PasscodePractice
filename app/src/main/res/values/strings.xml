@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Passcode Practice</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="success_text">SUCCESS!  You entered the correct number.</string>
+    <string name="oh_no_text">Oh no!  That\'s not the right number.  Give it another try!</string>
+    <string name="about_the_app">App created by Michael Fazio\n\nApp Icon made by Austin Andrews\nhttps://materialdesignicons.com/icon/pound-box</string>
+    <string name="reset_all_counts">Reset All Counts</string>
+    <string name="reset_clear_count">Reset \'Clear\' Count</string>
+    <string name="reset_oh_no_count">Reset \'Oh No\' Count</string>
+    <string name="reset_success_count">Reset Success Count</string>
+    <string name="reset_data">Reset Data</string>
+    <string name="about">About</string>
+    <string name="correct_value">Correct Value</string>
+</resources>

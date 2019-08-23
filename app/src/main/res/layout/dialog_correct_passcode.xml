@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:text="Correct Passcode"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="Please set the passcode you want to memorize.\nYou can always change this value in the Settings menu (found in the top-right of the app)."
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/dialogCorrectPasscodeValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:hint="Correct Passcode Value"
+        android:gravity="center"
+        android:layout_margin="32dp"
+        android:importantForAutofill="no" />
+</LinearLayout>
